@@ -27,7 +27,7 @@ sap.ui.define([
                 let input;
                 input = this.byId("inpBusca");
                 let valor =  input.getValue();
-                alert(valor);
+                //alert(valor);
 
                 let parameters = {
                     url : "https://world.openfoodfacts.org/api/v2/product/" + valor,
